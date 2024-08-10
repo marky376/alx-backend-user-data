@@ -3,7 +3,8 @@
 """
 from flask import Flask, request
 from api.v1.auth.auth import Auth
-import SessionAuth
+
+auth = Auth()
 
 app = Flask(__name__)
 
