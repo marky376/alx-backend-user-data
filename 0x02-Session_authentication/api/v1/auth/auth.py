@@ -37,7 +37,7 @@ class Auth:
         """Gets the current user from the request.
         """
         return None
-    def session_cookies(self, request=None) -> str;
+    def session_cookies(self, request=None) -> str:
         """Gets the value of the cookie named SESSION_NAME.
         """
         if request is not None:

@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/tech_star01/alx-backend-user-data/0x01-Basic_authentication/myenv"
+VIRTUAL_ENV="/home/tech_star01/alx-backend-user-data/0x02-Session_authentication/myenv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
